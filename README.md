@@ -6,6 +6,7 @@ This is novel game script engine for JavaScript.
 Sample
 ------
 \[JavaScript\]
+
 	var novel_API = new NovelGameAPI("Frame") ; //<div id="Frame"></div>
 	novel_API .Ready(function(){
 		novel_API
@@ -23,6 +24,7 @@ Sample
 	}) ;
 
 \[HTML\]
+
 		<div id="NobelGameFrame" class="NobelGameFrame">
 			<div class="Name"></div>
 			<div class="Content" selection="false"></div>
@@ -31,9 +33,9 @@ Sample
 API
 ---
 
- *`NovelGameAPI` : game main object
- **`Ready([Function]func)` : This is like jQuery $(function(){ ~ function.
- **`[NovelGameAPI] size(width , height)` : setting frame width and height
- **`[NovelGameAPI] dlgSize(height)` : setting dialog-box height
- **`[NovelGameAPI] mes([String]str)` : show message like type-writer.
- **`Start' : begin to play game
+ * `NovelGameAPI` : game main object
+ * `Ready([Function]func)` : This is like jQuery $(function(){ ~ function.
+ * `[NovelGameAPI] size(width , height)` : setting frame width and height
+ * `[NovelGameAPI] dlgSize(height)` : setting dialog-box height
+ * `[NovelGameAPI] mes([String]str)` : show message like type-writer.
+ * `Start` : begin to play game
